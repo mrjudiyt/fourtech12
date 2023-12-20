@@ -1,0 +1,74 @@
+/* Custom CSS for Gaming Website */
+
+/* Improve Header Styling */
+.header {
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+/* Style the Navigation Menu */
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the Hero Section */
+.hero-section {
+    background-image: url('path/to/your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+}
+
+/* Style Call-to-Action (CTA) Buttons */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600; /* Orange button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Add some styling for game thumbnails */
+.game-thumbnail {
+    border: 2px solid #ddd; /* Gray border */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.game-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+/* Custom Footer Styling */
+.footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Additional Styling for Responsive Design */
+@media only screen and (max-width: 768px) {
+    /* Add responsive styling here */
+}
